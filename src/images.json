@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "image": "https://images.express.com/is/image/expressfashion/0020_00303473_0302?cache=on&wid=361&fmt=jpeg&qlt=75,1&resmode=sharp2&op_usm=1,1,5,0&defaultImage=Photo-Coming-Soon",
+    "clicked": false
+  },
+  {
+    "id": 2,
+    "image": "https://images.express.com/is/image/expressfashion/0020_00303655_0746?cache=on&wid=361&fmt=jpeg&qlt=75,1&resmode=sharp2&op_usm=1,1,5,0&defaultImage=Photo-Coming-Soon",
+    "clicked": false
+  },
+  {
+    "id": 3,
+    "image": "https://images.express.com/is/image/expressfashion/0020_00303656_1360?cache=on&wid=361&fmt=jpeg&qlt=75,1&resmode=sharp2&op_usm=1,1,5,0&defaultImage=Photo-Coming-Soon",
+    "clicked": false
+  },
+  {
+    "id": 4,
+    "image": "https://images.express.com/is/image/expressfashion/0020_06033240_1400?cache=on&wid=361&fmt=jpeg&qlt=75,1&resmode=sharp2&op_usm=1,1,5,0&defaultImage=Photo-Coming-Soon",
+    "clicked": false
+  },
+  {
+    "id": 5,
+    "image": "https://images.express.com/is/image/expressfashion/0020_06034082_0925?cache=on&wid=361&fmt=jpeg&qlt=75,1&resmode=sharp2&op_usm=1,1,5,0&defaultImage=Photo-Coming-Soon",
+    "clicked": false
+  },
+  {
+    "id": 6,
+    "image": "https://images.express.com/is/image/expressfashion/0020_06033877_0935?cache=on&wid=361&fmt=jpeg&qlt=75,1&resmode=sharp2&op_usm=1,1,5,0&defaultImage=Photo-Coming-Soon",
+    "clicked": false
+  },
+  {
+    "id": 7,
+    "image": "https://images.express.com/is/image/expressfashion/0020_06033882_0851?cache=on&wid=361&fmt=jpeg&qlt=75,1&resmode=sharp2&op_usm=1,1,5,0&defaultImage=Photo-Coming-Soon",
+    "clicked": false
+  },
+  {
+    "id": 8,
+    "image": "https://images.express.com/is/image/expressfashion/0020_06034152_0176?cache=on&wid=361&fmt=jpeg&qlt=75,1&resmode=sharp2&op_usm=1,1,5,0&defaultImage=Photo-Coming-Soon",
+    "clicked": false
+  },
+  {
+    "id": 9,
+    "image": "https://images.express.com/is/image/expressfashion/0020_00303697_1248?cache=on&wid=361&fmt=jpeg&qlt=75,1&resmode=sharp2&op_usm=1,1,5,0&defaultImage=Photo-Coming-Soon",
+    "clicked": false
+  },
+  {
+    "id": 10,
+    "image": "https://images.express.com/is/image/expressfashion/0020_06034394_1081?cache=on&wid=361&fmt=jpeg&qlt=75,1&resmode=sharp2&op_usm=1,1,5,0&defaultImage=Photo-Coming-Soon",
+    "clicked": false
+  },
+  {
+    "id": 11,
+    "image": "https://images.express.com/is/image/expressfashion/0020_06033315_0001?cache=on&wid=361&fmt=jpeg&qlt=75,1&resmode=sharp2&op_usm=1,1,5,0&defaultImage=Photo-Coming-Soon",
+    "clicked": false
+  },
+  {
+    "id": 12,
+    "image": "https://images.express.com/is/image/expressfashion/0020_06034273_0925?cache=on&wid=361&fmt=jpeg&qlt=75,1&resmode=sharp2&op_usm=1,1,5,0&defaultImage=Photo-Coming-Soon",
+    "clicked": false
+  }
+]
