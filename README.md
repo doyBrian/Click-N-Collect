@@ -2,7 +2,11 @@
 
 ## Overview
 
-This is a memory game with React. 
+This is a memory game with React.
+
+### Deployed App Link
+
+https://click-n-collect.herokuapp.com/
 
 ### Design Notes
 
