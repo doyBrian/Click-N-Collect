@@ -10,7 +10,7 @@ class App extends Component {
   state = {
     images: images,       //load images.jason initially
     clicked: [],          //once image is clicked, store ID in this array
-    shirts: 0,            //keeps tracks of number of shirts clicked (once)
+    highest: 0,            //keeps tracks of number of shirts clicked (once)
     total: 0              //keeps track of total if each shirt is clicked (once)
   };
 
@@ -18,26 +18,27 @@ class App extends Component {
   handleClick = id => {
     //if id is already in clicked array, reset
     if(this.state.clicked.indexOf(id) >= 0) {
-      this.setState({shirts: 0})
+      alert("Oops, you already picked that shirt. Try again!");
       this.setState({total: 0})
       this.setState({clicked: []})
-    } else {                        //else increment shirts, total and add ID into clicked array
-      this.setState({shirts: this.state.shirts + 1})
+    } else {
       this.setState({total: this.state.total + 10})
-      this.setState({clicked: [...this.state.clicked, id]})
-    }
-
-    //if total has reached the max (each image clicked once), reset
-    if (this.state.total === 120) {
-      this.setState({shirts: 0})
-      this.setState({total: 0})
-      this.setState({clicked: []})
+      if (this.state.total === this.state.highest) {
+        this.setState({highest: this.state.highest + 10})
+        if (this.state.total === 110) {
+          //if total has reached the max (each image clicked once), reset
+          alert("You got all the shirts! Shop again soon!");
+          this.setState({highest: 0})
+          this.setState({total: 0})
+          this.setState({clicked: []})
+        } else                 //else increment shirts, total and add ID into clicked array
+          this.setState({clicked: [...this.state.clicked, id]})
+      }
     }
 
     //call shuffle function
     this.shuffle(this.state.images)
-
-  };
+  }
 
     //algorithm for shuffling elements in array
     shuffle(array) {
@@ -56,14 +57,13 @@ class App extends Component {
     return (
       <div class="container">
         <Jumbotron/>
-        <Title>Number of Shirts: {this.state.shirts} | Total: $ {this.state.total}.00 </Title>
+        <Title>Total: ${this.state.total}.00 | Highest Amount Spent: ${this.state.highest}.00 </Title>
         <Wrapper>
         {this.state.images.map(picture => (
           <ImageCard
             handleClick={this.handleClick}
             id = {picture.id}
             image = {picture.image}
-            counter = {this.state.counter}
           />
         ))}
         </Wrapper>
